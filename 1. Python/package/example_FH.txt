@@ -1,0 +1,12 @@
+Hello !
+How are you?
+I am good 
+My name is Satvik
+This is File handling in python
+Line will be appendedThis is File handling in python
+This is File handling in python
+This is File handling in python
+This is File handling in python
+First LineSecond LineThird LineFirst Line
+Second Line Third LineFirst Line
+Second Line Third Line
