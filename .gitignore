@@ -2,3 +2,6 @@
 .venv/
 venv/
 ENV/
+
+# Gitignore
+.gitignore
