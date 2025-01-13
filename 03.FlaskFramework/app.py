@@ -13,7 +13,7 @@ def home():
 
 @app.route('/render_template')
 def renderer():
-    return 'Hi'
+    return render_template('index.html') #File must be in templates folder
 
 if __name__ == '__main__':
     app.run(debug=True)
