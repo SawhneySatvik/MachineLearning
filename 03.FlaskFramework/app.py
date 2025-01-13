@@ -29,5 +29,28 @@ def submit():
         return f'Hello {name}!' 
     return render_template('form.html')
 
+#Variable Rule
+@app.route('/success/<int:score>/')
+def success(score):
+    res = ''
+    if score>50:
+        res = "PASSED"
+    else:
+        res = "FAILED"
+    
+    exp = {
+        'result':res,
+        'score':score
+    }
+    
+    return render_template('result.html', result = res, results=exp)
+
+'''
+Jinja2 templating engine
+{{  }} expressions to print out output in html
+{%...%} conditions, for loops
+{#...#} for comments
+'''
+
 if __name__ == '__main__':
     app.run(debug=True)
