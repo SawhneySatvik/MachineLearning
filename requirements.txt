@@ -25,6 +25,7 @@ ipython==8.28.0
 itsdangerous==2.2.0
 jedi==0.19.1
 Jinja2==3.1.5
+joblib==1.4.2
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
@@ -61,6 +62,8 @@ referencing==0.35.1
 requests==2.32.3
 rich==13.9.4
 rpds-py==0.22.3
+scikit-learn==1.6.1
+scipy==1.15.1
 seaborn==0.13.2
 six==1.16.0
 smmap==5.0.2
@@ -68,6 +71,7 @@ soupsieve==2.6
 stack-data==0.6.3
 streamlit==1.41.1
 tenacity==9.0.0
+threadpoolctl==3.5.0
 toml==0.10.2
 tornado==6.4.1
 traitlets==5.14.3
