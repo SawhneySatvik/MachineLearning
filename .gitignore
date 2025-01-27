@@ -5,3 +5,5 @@ ENV/
 
 # Gitignore
 .gitignore
+
+.env
