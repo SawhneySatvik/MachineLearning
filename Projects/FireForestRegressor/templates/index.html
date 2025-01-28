@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fire Forest Regressor<h1>
+    <form action="{{ url_for('predict') }}" method="post">
+        <input type="text" name="Temprature" placeholder="Temprature" required="required"><br>
+        <input type="text" name="RH" placeholder="RH" required="required"><br>
+        <input type="text" name="Ws" placeholder="Ws" required="required"><br>
+        <input type="text" name="Rain" placeholder="Rain" required="required"><br>
+        <input type="text" name="FFMC" placeholder="FFMC" required="required"><br>
+        <input type="text" name="DMC" placeholder="DMC" required="required"><br>
+        <input type="text" name="ISI" placeholder="ISI" required="required"><br>
+        <input type="text" name="Classes" placeholder="Classes (0 - Not Fire, 1 - Fire)" required="required"><br>
+        <input type="text" name="Region" placeholder="Region" required="required"><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button><br>
+    </form>
+    <h2>Result</h2><br>
+    <p>The FWI is {{prediction}} !</p>
+</body>
+</html>
