@@ -3,7 +3,4 @@
 venv/
 ENV/
 
-# Gitignore
-.gitignore
-
 .env
